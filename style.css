@@ -1,0 +1,124 @@
+.dot {
+	cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  border-style:ridge;
+}
+.dot-container {
+	text-align: center;
+  position: relative;
+  background-image: url(https://github.com/Rio1000/Randomquotegenerator/blob/main/wood.jpg?raw=true);
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  border-style:groove;
+  border-width: 10px;
+  padding: 20px;
+  margin-top: -20px;
+  border-color: rgb(100, 100, 100);
+
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+.slideshow-container {
+    position: relative;
+    background-image: url(https://github.com/Rio1000/Randomquotegenerator/blob/main/wood.jpg?raw=true);
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+    border-style:groove;
+    border-width: 10px;
+    border-color: rgb(100, 100, 100);
+    
+  }
+  
+  /* Slides */
+  .mySlides {
+    display: none;
+    padding: 80px;
+    text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 39%;
+    width: auto;
+    
+    padding: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 25px;
+    user-select: none;
+    background-color: gray;
+    margin: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+      position: absolute;
+      right: 0;
+      font-size:18px;
+      border-radius: 25px;
+      cursor:pointer;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+      border-radius: 25px;
+      background-color: gray;
+      border-width: 2px;
+      border-color: black;
+      border-style: solid;
+  }
+  
+  div {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  width: 79%;
+  background-image: url(https://github.com/Rio1000/Randomquotegenerator/blob/main/wood.jpg?raw=true);
+  margin: 10px;
+  margin-left: 1%;
+  margin-right:1%;
+  border-style: groove;
+  border-width: 10px;
+  border-color: rgb(100, 100, 100);
+
+
+  }
+
+  h1 {
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 60px;
+    position: relative;
+    font-variant: small-caps;
+  }
+  h2 {
+    font-family: 'Open Sans', sans-serif;
+    
+    position: relative;
+    margin-top: -6%;
+    font-size: 30px;
+    font-variant: small-caps;
+
+  }
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+    border-color: white;
+  }
